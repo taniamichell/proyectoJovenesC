@@ -1,0 +1,100 @@
+*{
+  padding:0;
+  margin:0 ;
+}
+h1{
+    text-align: center;
+    background-color: rgb(149, 196, 240);
+    
+
+}
+nav ul {
+    background-color: rgb(145, 145, 151);
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    position:sticky
+}
+nav li{
+    display: inline-flex;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+nav li:hover{
+    background-color: rgb(0, 0, 0)
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;    
+}
+img{
+    width: 300px;
+    height:300px;
+}
+.container-items{
+    margin: 20px;
+    border: 3px solid rgb(212, 21, 21);
+    width: 300px;
+}
+.productos{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+margin-top: 55px;
+justify-content: center;
+
+
+}
+.info-product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iten{
+    border: 3px solid rgb(252, 247, 247);
+    margin: 20px;
+    
+}
+.iten:hover img{
+    transform: scale(1.2);
+    transition: all 2s;
+}
+.iten figure{
+    overflow: hidden;
+
+}
+ .containerTitulo{
+    width: 100%;
+    font-family: 'Lobster', cursive;
+    font-size: 150px;
+ }
+ .boton{ 
+    background-color: palegreen;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: 150px;
+}
+header{
+    width: 100%;
+    top: 0%;
+
+
+}
+.item{
+ font-family: Arial, Helvetica, sans-serif;
+ scroll-margin-top: 8px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+ 
